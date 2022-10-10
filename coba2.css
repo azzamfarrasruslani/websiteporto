@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+    background-image: url(gambar/evee.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-color: rgb(150, 157, 163);
+}
+
+h2 {
+    line-height: 80px;
+    color:rgb(52, 58, 64); 
+    text-align: center;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.logo span {
+    color: darkblue;
+}
+
+/* Navbar */
+.menu {
+    display: flex;
+    background-color: rgb(240, 246, 247, .8);
+    height: 80px;
+    justify-content: space-evenly;
+    /*padding: 20px 0;*/
+    align-items: center;
+}
+
+.menu ul {
+    margin: 0px;
+    background: none;
+    display: block;
+    float: left;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    color: rgba(8, 11, 12, 0.8);
+
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: rgb(85, 142, 192) ;
+    box-shadow:black;
+}
+
+.menu ul li .dropdown {
+    display: none;
+    width: 150px;
+
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: rgb(240, 246, 247, .8);
+    position: absolute;
+    padding: 0px;
+}
+
+
